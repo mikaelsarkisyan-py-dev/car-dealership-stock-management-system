@@ -1,0 +1,5 @@
+Database File		Table Name			Related to:
+Table Name	Foreign Key														
+General table description:				
+Field Name	R	I	Data Type	Length	Input Mask/Validation Rule	Default Value	Description	Typical Data																																																																																		
+Key:	R=Required	Y 	(Yes)	N 	(No)					I=Indexed		Not Indexed	X	No Duplicates		Duplicates OK

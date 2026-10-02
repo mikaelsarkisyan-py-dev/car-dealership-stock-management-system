@@ -1,0 +1,5 @@
+Database File	OCR Cars	Table Name	Stock		Related to:
+Table Name	Foreign Key				Stock										
+General table description:		Stores data of the vehicles in the database		
+Field Name	R	I	Data Type	Length	Input Mask/Validation Rule	Default Value	Description	Typical Data		Vehicle brand			Text	50	Length check of 50 characters, most brands are under 50 characters		Easily identify vehicle brand rather than remembering their Stock ID	BMW		Model			Text	50	Length check of 50 characters; it’s enough characters for most vehicle models		Easily identify vehicle model rather than remembering their Stock ID	BMW m3		Price			Number	1000000	Must include a £ sign in front of every price tag, validated using a range check		Store price to show customers price of vehicles. Prices may change	£60,000		Stock ID			Number	200	Validated using a uniqueness check ensuring that each vehicle has a unique Stock ID		Easily store vehicles by indexing them	BMW m3 ID - 437		
+Key:	R=Required	Y 	(Yes)	N 	(No)					I=Indexed		Not Indexed	X	No Duplicates		Duplicates OK

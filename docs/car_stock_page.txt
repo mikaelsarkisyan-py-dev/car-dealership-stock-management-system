@@ -1,0 +1,12 @@
+Car stock page:
+
+. drop down menu to select car brand
+. if qnt of car brand is 0 then blur out that car brand in the drop menu (show that there are no cars of that brand)
+
+Car brand:
+. once car brand selected, a table of all the cars in stock registered to the specific car brand selected
+. somewhere at the top of the table shows total amount of cars of the specific car brand selected
+. first row at the top of the table represents the car models of the certain car brand selected
+. employees can tap and select of the car model they wish and a new table will drop showing all the car specs of that car model including retail price
+. again, somewhere at the top of the table will be the total number of cars in stock of the selected car model
+. for each model selected, under the table of the car specs, will be a bar chart cointaining price ranges for example: £10k - £15k or £55k - £60k 

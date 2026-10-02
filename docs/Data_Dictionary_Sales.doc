@@ -1,0 +1,5 @@
+Database File	OCR Cars	Table Name	Sales		Related to:
+Table Name	Foreign Key				Sales	Stock ID					User ID				
+General table description:		Stores data of sold vehicles		
+Field Name	R	I	Data Type	Length	Input Mask/Validation Rule	Default Value	Description	Typical Data		Stock ID			Number	999	Uniqueness check ensuring that each vehicle has unique Stock ID		Determine which vehicle has been sold and removed from the stock database	BMW m3 ID - 437		Date			Date/Time	8	Format: (__/__/__) using a format check		Date/Time a vehicle has been sold	09/11/20		User ID			Text	30	Must start with first letter of first name followed by surname; validated using uniqueness check so each user has unique User ID		Identify which employee sold the vehicle. Could help determine which employee deserve a raise	MSarkisyan8452		Profit			Number	£10,000,000	Must start with a £ sign; validated using data type check as value must be stored in integer form		Find how much profit the business has made over the years	£3,213,886		
+Key:	R=Required	Y 	(Yes)	N 	(No)					I=Indexed		Not Indexed	X	No Duplicates		Duplicates OK

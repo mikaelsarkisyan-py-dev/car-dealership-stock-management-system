@@ -1,0 +1,27 @@
+Login/Sign up page:
+
+. automatically load up the login page (that way employees can quickly log in rather than changing from the sign up page to the log in page)
+. button at the bottom of the login form for new employees that need to create a new account
+
+
+
+login requirments:
+. id/username
+. password
+
+sign up requirements:
+. first name
+. second name
+. password
+. password confirmation
+. once signed in, unique id will be automatically generated
+
+ID/USERNAME:
+consists of first letter of first name + second name + unique randomly generated 4 digit number
+
+PASSWORD:
+must be at least 8 characters long, have capital and lower case letters and at least 1 special character
+
+
+WHERE TO FIND UNIQUE ID/USERNAME:
+top left of the screen will be an icon with user details and stuff, there the user can find what their unique id/username is
